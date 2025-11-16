@@ -16,20 +16,22 @@ export default function Hero() {
         showRadialGradient={true}
       />
 
-      <div className="flex flex-col justify-center items-center md:flex-row gap-0 md:gap-4  lg:px-[15%]  content-center  ">
+      <div className="flex flex-col justify-center items-center md:flex-row gap-6 md:gap-8 lg:gap-12  lg:px-[15%]  content-center  ">
         <Image
           src={profilePhoto}
           alt="Profile Photo"
-          className="rounded-full flex-shrink-0 w-52 h-52 md:w-52 md:h-52 lg:w-64 lg:h-64  "
-          width={512}
-          height={512}
+          className="rounded-full opacity-90 shadow-orange/50 duration-75 hover:scale-105 hover:transform hover:opacity-50 hover:shadow-2xl"
+          width={300}
+          height={400}
+          quality={70}
+          loading="eager"
           priority={true}
         />
 
         <div className="flex-col flex  justify-center">
           <div className="flex-row  justify-center md:justify-start flex gap-4 order-last md:order-first pt-5 md:pt-0">
             <Link
-              href="https://github.com/sparsh-kamat"
+              href="https://github.com/house-open"
               target="_blank"
               className="social-link"
               aria-label="Visit my GitHub profile"
@@ -43,7 +45,7 @@ export default function Hero() {
               />
             </Link>
             <Link
-              href="https://linkedin.com/in/sparshkamat"
+              href="https://linkedin.com/in/liu-ming-87b067396"
               target="_blank"
               className="social-link"
               aria-label="Visit my LinkedIn profile"
@@ -57,7 +59,7 @@ export default function Hero() {
               />
             </Link>
             <Link
-              href="mailto:kamatsparsh@gmail.com"
+              href="mailto:liumingopen@gmail.com"
               target="_blank"
               className="social-link"
               aria-label="Send me an email"
@@ -66,11 +68,11 @@ export default function Hero() {
             </Link>
           </div>
           <h1 className="text-7xl md:pt-4 lg:pt-8 font-serif text-center md:text-left  text-primary">
-            <span>Sparsh</span> {/* Add a space for the inline view */}
-            <span className="block lg:inline text-primary">Kamat</span>
+            <span>Liu</span> {/* Add a space for the inline view */}
+            <span className="block lg:inline text-primary">Ming</span>
           </h1>
           <p className="font-serif text-xl pt-4 lg:pt-9 text-muted-foreground">
-            Full Stack Engineer | Tech Enthusiast
+            Senior Software Engineer | Full Stack Developer
           </p>
         </div>
       </div>

@@ -4,7 +4,16 @@ import Image from 'next/image';
 import {
   IconBrandGithub, IconBrandReact, IconDatabase, IconBrandNodejs,
   IconBrandNextjs, IconBrandTypescript, IconBrandTailwind, IconBrandSupabase,
-  IconBrandVercel, IconBrandFramerMotion, IconBrandPrisma, IconBrandOauth,IconBrandHtml5,IconBrandCss3,IconBrandMongodb,IconBrandJavascript, IconBrandDocker,IconBrandDjango
+  IconBrandVercel, IconBrandFramerMotion, IconBrandPrisma, IconBrandOauth,IconBrandHtml5,IconBrandCss3,IconBrandMongodb,IconBrandJavascript, IconBrandDocker,IconBrandDjango,
+  IconBrandAzure,
+  IconBrandPhp,
+  IconBrandGolang,
+  IconBrandPython,
+  IconBrandAws,
+  IconBrandGitlab,
+  IconBrandElectronicArts,
+  IconBrandFirebase,
+  IconBrandOpenai
   
 } from "@tabler/icons-react";
 import { JSX } from 'react';
@@ -25,14 +34,23 @@ const getTechIcon = (tech: string): JSX.Element | null => {
     framermotion: <IconBrandFramerMotion size={14} className="inline mr-1.5" />,
     prisma: <IconBrandPrisma size={14} className="inline mr-1.5" />,
     github: <IconBrandGithub size={14} className="inline mr-1.5" />,
+    firebase: <IconBrandFirebase size={14} className="inline mr-1.5" />,
+    openai: <IconBrandOpenai size={14} className="inline mr-1.5" />,
     postgresql: <IconDatabase size={14} className="inline mr-1.5" />,
     html: <IconBrandHtml5 size={14} className="inline mr-1.5" />,
     css: <IconBrandCss3 size={14} className="inline mr-1.5" />,
+    electron: <IconBrandElectronicArts size={14} className="inline mr-1.5" />,
     oauth: <IconBrandOauth size={14} className="inline mr-1.5" />,
     mongodb: <IconBrandMongodb size={14} className="inline mr-1.5" />,
     javascript: <IconBrandJavascript size={14} className="inline mr-1.5" />,
     django: <IconBrandDjango size={14} className="inline mr-1.5" />,
     docker: <IconBrandDocker size={14} className="inline mr-1.5" />,
+    azure: <IconBrandAzure size={14} className="inline mr-1.5" />,
+    php: <IconBrandPhp size={14} className="inline mr-1.5" />,
+    go: <IconBrandGolang size={14} className="inline mr-1.5" />,
+    python: <IconBrandPython size={14} className="inline mr-1.5" />,
+    aws: <IconBrandAws size={14} className="inline mr-1.5" />,
+    gitlab: <IconBrandGitlab size={14} className="inline mr-1.5" />,
     heroku: (
       <span className="inline-flex items-center mr-1.5">
         <Image src={"/heroku.svg"} alt="Heroku" className="invert-0 dark:invert" width={14} height={14} />

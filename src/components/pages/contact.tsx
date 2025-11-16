@@ -234,12 +234,12 @@ export default function Contact() {
         <p className="text-sm">
           You can also reach me directly at{" "}
           <a
-            href="mailto:kamatsparsh@gmail.com"
+            href="mailto:liumingopen@gmail.com"
             target="_blank"
-            aria-label="Email Sparsh Kamat"
+            aria-label="Email Liu Ming"
             className="text-primary underline underline-offset-4 hover:text-primary/90"
           >
-            kamatsparsh@gmail.com
+            liumingopen@gmail.com
           </a>
         </p>
       </div>

@@ -31,7 +31,7 @@ export async function sendEmail(data: unknown) {
         replyTo: email, // Use the user's email for replies
         subject: subject,
         html: `
-        <h2>New message via sparshkamat.me</h2>
+        <h2>New message via liumingopen.me</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Subject:</strong> ${subject}</p>

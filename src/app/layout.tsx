@@ -13,12 +13,12 @@ const robotoSerif = Roboto_Serif({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.sparshkamat.me'),
-  title: "Sparsh Kamat - Full Stack Developer",
-  description: "The portfolio of Sparsh Kamat, a passionate Full Stack Developer creating dynamic and user-friendly web applications.",
-  keywords: ["Sparsh Kamat", "Full Stack Developer", "Next.js", "React", "TypeScript", "Portfolio", "Full Stack", "Web Development"],
-  authors: [{ name: "Sparsh Kamat", url: "https://www.sparshkamat.me" }],
-  creator: "Sparsh Kamat",
+  metadataBase: new URL('https://www.liumingopen.me'),
+  title: "Liu Ming - Full Stack Developer",
+  description: "The portfolio of Liu Ming, a passionate Full Stack Developer creating dynamic and user-friendly web applications.",
+  keywords: ["Liu Ming", "Full Stack Developer", "Next.js", "React", "TypeScript", "Portfolio", "Full Stack", "Web Development"],
+  authors: [{ name: "Liu Ming", url: "https://www.liumingopen.me" }],
+  creator: "Liu Ming",
 
   alternates: {
     canonical: '/',
@@ -28,24 +28,24 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: 'website',
-    url: 'https://www.sparshkamat.me',
-    title: 'Sparsh Kamat - Full Stack Developer',
-    description: 'The portfolio of Sparsh Kamat...',
+    url: 'https://www.liumingopen.me',
+    title: 'Liu Ming - Full Stack Developer',
+    description: 'The portfolio of Liu Ming...',
     images: [
       {
-        url: 'https://www.sparshkamat.me/og-image.png', 
+        url: 'https://www.liumingopen.me/og-image.png', 
         width: 1200,
         height: 630,
-        alt: 'Sparsh Kamat Portfolio',
+        alt: 'Liu Ming Portfolio',
       },
     ],
   },
   
   twitter: {
     card: 'summary_large_image',
-    title: 'Sparsh Kamat - Full Stack Developer',
-    description: 'The portfolio of Sparsh Kamat...',
-    images: ['https://www.sparshkamat.me/og-image.png'],
+    title: 'Liu Ming - Full Stack Developer',
+    description: 'The portfolio of Liu Ming...',
+    images: ['https://www.liumingopen.me/og-image.png'],
   },
 };
 

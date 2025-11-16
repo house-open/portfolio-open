@@ -1,4 +1,4 @@
-# Sparsh Kamat - Personal Portfolio
+# Liu Ming - Personal Portfolio
 
 ![Vercel Deployment](https://img.shields.io/badge/deployment-Vercel-black?style=for-the-badge&logo=vercel)
 ![Next JS](https://img.shields.io/badge/Next.js-15.3.3-blue?style=for-the-badge&logo=next.js)
@@ -7,11 +7,9 @@
 
 This repository contains the source code for my personal portfolio website, designed to showcase my skills, projects, and career journey as a Full Stack Developer. It is built from the ground up with a focus on performance, modern design, accessibility, and a great user experience.
 
-### 🌐 **[View Live @ sparshkamat.me](https://www.sparshkamat.me)**
+### 🌐 **[View Live @ liumingopen.me](https://www.liumingopen.me)**
 
 ---
-![og-image](https://github.com/user-attachments/assets/cdd752cb-095e-49fa-a8e7-4e1fe3d7b185)
-
 
 ## ✨ Features
 
@@ -42,7 +40,7 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/sparsh-kamat/portfolio-website
+    git clone https://github.com/house-open/portfolio-open
     cd portfolio-website
     ```
 
@@ -76,4 +74,4 @@ This project is deployed on [Vercel](https://vercel.com/), the platform from the
 
 ---
 
-Developed and designed by Sparsh Kamat.
+Developed and designed by Liu Ming.
