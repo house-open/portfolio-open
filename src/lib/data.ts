@@ -101,6 +101,7 @@ export const historyData = [
   ];
 
 export const frontendTech = [
+    "Angular",
     "React",
     "Vue.js",
     "Next.js",
@@ -109,14 +110,14 @@ export const frontendTech = [
 ];
 
 export const backendTech = [
-    "Next.js",
     "Node.js",
+    "Express",
     "Prisma",
     "PostgreSQL",
     "Django",
 ];
 
-export const toolsAndDevops = ["AWS", "Azure", "GitHub", "GitLab", "Docker"];
+export const toolsAndDevops = ["AWS", "Azure", "GitHub", "GitLab", "Docker", "Terraform"];
 
 export const programmingLanguages = ["JavaScript", "Java", "PHP", "Go", "Python"];
 

@@ -13,7 +13,9 @@ import {
   IconBrandGitlab,
   IconBrandElectronicArts,
   IconBrandFirebase,
-  IconBrandOpenai
+  IconBrandOpenai,
+  IconBrandTerraform,
+  IconBrandAngular
   
 } from "@tabler/icons-react";
 import { JSX } from 'react';
@@ -46,6 +48,9 @@ const getTechIcon = (tech: string): JSX.Element | null => {
     django: <IconBrandDjango size={14} className="inline mr-1.5" />,
     docker: <IconBrandDocker size={14} className="inline mr-1.5" />,
     azure: <IconBrandAzure size={14} className="inline mr-1.5" />,
+    angular: <IconBrandAngular size={14} className="inline mr-1.5" />,
+    terraform: <IconBrandTerraform size={14} className="inline mr-1.5" />,
+    
     php: <IconBrandPhp size={14} className="inline mr-1.5" />,
     go: <IconBrandGolang size={14} className="inline mr-1.5" />,
     python: <IconBrandPython size={14} className="inline mr-1.5" />,
